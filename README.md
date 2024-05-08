@@ -1,19 +1,19 @@
-# Tracim
-
-![logo_tracim](./doc/logos/logo_tracim.png)
-
-[Tracim](https://www.tracim.fr) is a tool designed to help you and your team to a better collaboration.
-It's officially supported in Arabic, English, French, German and Portuguese.
-
-Any questions, remarks? Reach us on [Tracim Community](https://public-community.tracim.fr).  
-More informations on our [website](https://www.tracim.fr).
-
-## Quick start (using Docker)
-
-An easy way to start using Tracim is to use the [Docker image](https://hub.docker.com/r/algoo/tracim/).
-
-```bash
-mkdir -p ~/tracim/etc
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Tracim" newtip="特拉希姆">特拉希姆</trans></h1><a id="user-content-tracim" class="anchor" aria-label="Permalink: Tracim" href="#tracim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/tracim/tracim/blob/develop/doc/logos/logo_tracim.png"><img src="/tracim/tracim/raw/develop/doc/logos/logo_tracim.png" alt="logo_tracim" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.tracim.fr" rel="nofollow"><trans oldtip="Tracim" newtip="特拉希姆">特拉希姆</trans></a><trans oldtip=" is a tool designed to help you and your team to a better collaboration. It's officially supported in Arabic, English, French, German and Portuguese." newtip="是一个旨在帮助您和您的团队更好地协作的工具。官方支持阿拉伯语、英语、法语、德语和葡萄牙语。">是一个旨在帮助您和您的团队更好地协作的工具。官方支持阿拉伯语、英语、法语、德语和葡萄牙语。</trans></p>
+<p dir="auto"><trans oldtip="Any questions, remarks? Reach us on " newtip="有什么问题和意见吗？联系我们">有什么问题和意见吗？联系我们</trans><a href="https://public-community.tracim.fr" rel="nofollow"><trans oldtip="Tracim Community" newtip="Tracim社区">Tracim社区</trans></a>.<br><trans oldtip=" More informations on our " newtip="更多关于我们的信息">更多关于我们的信息</trans><a href="https://www.tracim.fr" rel="nofollow"><trans oldtip="website" newtip="网站">网站</trans></a>.</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Quick start (using Docker)" newtip="快速启动（使用Docker）">快速启动（使用Docker）</trans></h2><a id="user-content-quick-start-using-docker" class="anchor" aria-label="Permalink: Quick start (using Docker)" href="#quick-start-using-docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="An easy way to start using Tracim is to use the " newtip="开始使用Tracim的一种简单方法是使用">开始使用Tracim的一种简单方法是使用</trans><a href="https://hub.docker.com/r/algoo/tracim/" rel="nofollow"><trans oldtip="Docker image" newtip="Docker图像">Docker图像</trans></a>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>mkdir -p <span class="pl-k">~</span>/tracim/etc
+mkdir -p <span class="pl-k">~</span>/tracim/var
+docker run \
+    -e DATABASE_TYPE=sqlite \
+    -e TRACIM_WEBSITE__BASE_URL=http://{ip_address}:{port} \
+    -p 8080:80 \
+    -v <span class="pl-k">~</span>/tracim/etc:/etc/tracim \
+    -v <span class="pl-k">~</span>/tracim/var:/var/tracim \
+    algoo/tracim:latest</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="mkdir -p ~/tracim/etc
 mkdir -p ~/tracim/var
 docker run \
     -e DATABASE_TYPE=sqlite \
@@ -21,63 +21,50 @@ docker run \
     -p 8080:80 \
     -v ~/tracim/etc:/etc/tracim \
     -v ~/tracim/var:/var/tracim \
-    algoo/tracim:latest
-```
+    algoo/tracim:latest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><trans oldtip="Then, you can access the application at " newtip="然后，您可以在以下位置访问该应用程序">然后，您可以在以下位置访问该应用程序</trans><a href="http://localhost:8080" rel="nofollow"><trans oldtip="http://localhost:8080" newtip="http://localhost:8080">http://localhost:8080</trans></a></p>
+<p dir="auto"><trans oldtip="The credentials to access the application are:" newtip="访问应用程序的凭据有:">访问应用程序的凭据有:</trans></p>
+<ul dir="auto">
+<li><trans oldtip="email: " newtip="电子邮件:">电子邮件:</trans><code>admin@admin.admin</code></li>
+<li><trans oldtip="password: " newtip="密码:">密码:</trans><code>admin@admin.admin</code></li>
+</ul>
 
-Then, you can access the application at <http://localhost:8080>
+<p dir="auto"><trans oldtip="For advanced docker-based usage, look at the full " newtip="有关基于docker的高级用法，请参阅完整的">有关基于docker的高级用法，请参阅完整的</trans><a href="/tracim/tracim/blob/develop/tools_docker"><trans oldtip="Tracim Docker documentation" newtip="Tracim Docker文档">Tracim Docker文档</trans></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Build Tracim from source" newtip="从源构建Tracim">从源构建Tracim</trans></h2><a id="user-content-build-tracim-from-source" class="anchor" aria-label="Permalink: Build Tracim from source" href="#build-tracim-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="See " newtip="看见">看见</trans><a href="/tracim/tracim/blob/develop/doc/BUILD.md"><trans oldtip="Building Tracim from source" newtip="从源构建Tracim">从源构建Tracim</trans></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Testing Tracim" newtip="测试轨道">测试轨道</trans></h2><a id="user-content-testing-tracim" class="anchor" aria-label="Permalink: Testing Tracim" href="#testing-tracim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="See " newtip="看见">看见</trans><a href="/tracim/tracim/blob/develop/doc/TESTING.md"><trans oldtip="Testing Tracim" newtip="测试轨道">测试轨道</trans></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Run Tracim for production" newtip="为生产运行Tracim">为生产运行Tracim</trans></h2><a id="user-content-run-tracim-for-production" class="anchor" aria-label="Permalink: Run Tracim for production" href="#run-tracim-for-production"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="See " newtip="看见">看见</trans><a href="/tracim/tracim/blob/develop/doc/PRODUCTION.md"><trans oldtip="Running Tracim for production" newtip="为生产运行Tracim">为生产运行Tracim</trans></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Contribute" newtip="捐助">捐助</trans></h2><a id="user-content-contribute" class="anchor" aria-label="Permalink: Contribute" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="There are several ways to contribute to Tracim, here are some tips:" newtip="有多种方式为Tracim做出贡献，以下是一些提示:">有多种方式为Tracim做出贡献，以下是一些提示:</trans></p>
+<ul dir="auto">
+<li><trans oldtip="Submit " newtip="使服从">使服从</trans><a href="https://github.com/tracim/tracim/issues"><trans oldtip="bugs and feature requests" newtip="错误和功能请求">错误和功能请求</trans></a></li>
+<li><trans oldtip="Review the " newtip="查看">查看</trans><a href="https://github.com/tracim/tracim/pulls"><trans oldtip="code and propose changes" newtip="编码并提议变更">编码并提议变更</trans></a></li>
+<li><trans oldtip="Contribute to the " newtip="为…做贡献">为…做贡献</trans><a href="https://hosted.weblate.org/projects/tracim/" rel="nofollow"><trans oldtip="translations" newtip="翻译">翻译</trans></a></li>
+</ul>
 
-The credentials to access the application are:
 
-- email: `admin@admin.admin`
-- password: `admin@admin.admin`
 
-<!-- We have to update Docker documentation according to this one -->
-For advanced docker-based usage, look at the full [Tracim Docker documentation](./tools_docker/)
 
-## Build Tracim from source
+<p dir="auto"><trans oldtip="For more information about contributing to Tracim, see the " newtip="有关参与Tracim的更多信息，请参见">有关参与Tracim的更多信息，请参见</trans><a href="/tracim/tracim/blob/develop/CONTRIBUTING.md"><trans oldtip="Contributing to Tracim" newtip="为Tracim做贡献">为Tracim做贡献</trans></a><trans oldtip=" page." newtip="页面。">页面。</trans></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Translation status" newtip="翻译状态">翻译状态</trans></h2><a id="user-content-translation-status" class="anchor" aria-label="Permalink: Translation status" href="#translation-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="We are adding to Tracim interface every translations that once reached 50%." newtip="我们正在将曾经达到50%的翻译添加到Tracim界面。">我们正在将曾经达到50%的翻译添加到Tracim界面。</trans></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/13b117d5319636f1d41a2fc285c6cc3e13de100e37772a1f0c6d78dd119ffcda/68747470733a2f2f686f737465642e7765626c6174652e6f72672f776964676574732f74726163696d2f656e2f6d756c74692d6175746f2e737667"><img src="https://camo.githubusercontent.com/13b117d5319636f1d41a2fc285c6cc3e13de100e37772a1f0c6d78dd119ffcda/68747470733a2f2f686f737465642e7765626c6174652e6f72672f776964676574732f74726163696d2f656e2f6d756c74692d6175746f2e737667" alt="Translation status" data-canonical-src="https://hosted.weblate.org/widgets/tracim/en/multi-auto.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Licence" newtip="许可证">许可证</trans></h2><a id="user-content-licence" class="anchor" aria-label="Permalink: Licence" href="#licence"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><trans oldtip="Tracim is distributed under the terms of 4 distinct licenses. See " newtip="Tracim根据4个不同的许可条款分发。看见">Tracim根据4个不同的许可条款分发。看见</trans><a href="/tracim/tracim/blob/develop/LICENSE.md"><trans oldtip="LICENSE.md" newtip="LICENSE.md">LICENSE.md</trans></a><trans oldtip=" for details" newtip="详情见">详情见</trans></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><trans oldtip="Support" newtip="支持">支持</trans></h2><a id="user-content-support" class="anchor" aria-label="Permalink: Support" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/tracim/tracim/blob/develop/doc/logos/logo_weblate.png"><img src="/tracim/tracim/raw/develop/doc/logos/logo_weblate.png" alt="logo_weblate" width="200" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://weblate.org" rel="nofollow"><trans oldtip="Weblate" newtip="网页快讯">网页快讯</trans></a><trans oldtip=" is an open source translation service, they are helping us to translate Tracim by providing a hosting service." newtip="是一个开源翻译服务，他们通过提供托管服务来帮助我们翻译Tracim。">是一个开源翻译服务，他们通过提供托管服务来帮助我们翻译Tracim。</trans></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/tracim/tracim/blob/develop/doc/logos/logo_browserstack.png"><img src="/tracim/tracim/raw/develop/doc/logos/logo_browserstack.png" alt="logo_browserstack" width="150" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.browserstack.com" rel="nofollow"><trans oldtip="BrowserStack" newtip="浏览器堆栈">浏览器堆栈</trans></a><trans oldtip=" supports open source projects, and graciously helps us testing Tracim on every devices." newtip="支持开源项目，并慷慨地帮助我们在每台设备上测试Tracim。">支持开源项目，并慷慨地帮助我们在每台设备上测试Tracim。</trans></p>
 
-See [Building Tracim from source](./doc/BUILD.md)
-
-## Testing Tracim
-
-See [Testing Tracim](./doc/TESTING.md)
-
-## Run Tracim for production
-
-See [Running Tracim for production](./doc/PRODUCTION.md)
-
-## Contribute
-
-There are several ways to contribute to Tracim, here are some tips:
-
-- Submit [bugs and feature requests](https://github.com/tracim/tracim/issues)
-- Review the [code and propose changes](https://github.com/tracim/tracim/pulls)
-- Contribute to the [translations](https://hosted.weblate.org/projects/tracim/)
-
-<!-- We should explain in CONTRIBUTING.md how to build from source,   -->
-<!-- how to start tests, the code guidelines we respect how to submit -->
-<!-- a pull request, how to find an issue to work on and how to       -->
-<!-- contribute to the translations.                                  -->
-For more information about contributing to Tracim, see the [Contributing to Tracim](./CONTRIBUTING.md) page.
-
-## Translation status
-
-We are adding to Tracim interface every translations that once reached 50%.
-
-![Translation status](https://hosted.weblate.org/widgets/tracim/en/multi-auto.svg)
-
-## Licence
-
-Tracim is distributed under the terms of 4 distinct licenses. See [LICENSE.md](./LICENSE.md) for details
-
-## Support
-
-<img src="doc/logos/logo_weblate.png" alt="logo_weblate" width="200"/>
-
-[Weblate](https://weblate.org) is an open source translation service, they are helping us to translate Tracim by providing a hosting service.
-
-<img src="doc/logos/logo_browserstack.png" alt="logo_browserstack" width="150"/>
-
-[BrowserStack](https://www.browserstack.com) supports open source projects, and graciously helps us testing Tracim on every devices.
-
-<!-- END -->
+</article></div>
